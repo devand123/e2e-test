@@ -1,2 +1,2 @@
 #!/bin/sh
-./node_modules/.bin/protractor protractor-sauce.conf.js
+./node_modules/protractor/bin/protractor protractor-sauce.conf.js
