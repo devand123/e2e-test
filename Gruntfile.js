@@ -55,7 +55,7 @@ module.exports = function (grunt) {
                 },
                 tasks: [
                     {cmd: "./bin/selenium-server.sh"},
-                    {cmd: './bin/test.sh'}
+                    // {cmd: './bin/test.sh'}
                 ]
             },
             seleniumSetup: {
@@ -92,7 +92,7 @@ module.exports = function (grunt) {
     grunt.registerTask('test-setup', [
         'clean',
         'copy',
-        'coffee'
+        'coffee',
     ]);
 
     grunt.registerTask('test-sauce', [
